@@ -1,0 +1,44 @@
+# Compiled output; the .exe.config file is source configuration
+*.exe
+*.dll
+*.pdb
+*.obj
+/bin/
+/obj/
+/build/
+/dist/
+/tools/
+*.zip
+*.7z
+
+# Credentials, runtime state, caches, and recordings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+state.json
+/cache/
+/ChannelSurf/
+/ChannelSurfDvr/
+/recordings/
+*.m3u
+*.m3u8
+*.ts
+*.mp4
+*.mkv
+
+# Local editor and Windows files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.bak
+*.tmp
+*~
+Thumbs.db
+Desktop.ini
